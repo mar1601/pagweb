@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- estils per a poder incloure la icona en pantalla petita -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 class = "title"><img class="imagebox bottleimage" src="img\title.png" ></h1>
+<div class="topnav" id="myTopnav">
+  <a href="#descripcion" class="desc navbartext">Descripción</a>
+  <a href="#blockout" class="blockout navbartext">Block Out</a>
+  <a href="#funcionamiento" class="func navbartext">Funcionamiento</a>
+  <a href="#compra" class="compra navbartext">Compra</a>
+
+  <!-- quan clickem la icona, executa funcio de javascript -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+<div class ="bodycontent">
+<!-- Descripción -->
+    <div id="descripcion">
+        <img class="imagebox bottleimage" src="img\BLOZCA.png" >
+        <div class="descbox">
+            <h2 class="desc headerboxtext">Descripción</h2>
+            <p>Blozca consiste en un nuevo producto que fusiona el gran sabor del vozca con la union del famoso videojuego de los 80
+                Block Out.¡Podrás disfrutar de las fiestas mas locas de la mejor manera posible! 
+                Disfrutando de las partidas tan divertidas gracias a su pantalla tactil integrada.
+                Nuestro producto ha estado elavorado de manera respetuosa con el medio ambiente </p>
+        </div>
+    </div>
+    
+
+    <div id="blockout">
+        
+        <div class="descbox">
+            <h2 class="blockout headerboxtext">Block Out</h2>
+            <p>Block Out consiste en un videojuego inspirado en tetris 3D donde viene integrado con un temporizador que cada vez que ganes
+                 una partida el tapon de la botella se abre durante 10 minutos y podras disfrutar de tu vodka</p>
+        </div>
+        <img class="imagebox" src="img\blockout.gif" >
+    </div>
+    
+
+    
+    <div id="funcionamiento">
+        <div class="funcio">
+    <h2 class = "func headerboxtext">Funcionamiento</h2>
+    <p>Blozca funciona a través de la pantalla táctil donde puedes jugar diferentes partidas de Block Out.
+        Cada vez que ganas el tapón de la botella se desbloquea automaticamente y tienes un minuto para disfrutar a tu manera del maravilloso 
+        sabor del vodka. ¡A mejor puntuación mas tiempo se desbloquea el tapon y mas rato podrás disfrutar!
+        Pero cuidado, Blodzca es un producto solo apto para mayores de 18 años.
+    </p>
+    </div>
+
+</div>
+
+
+    <div id="compra">
+        <img class="imagebox bottleimage" src="img\BLOZCA.png" >
+        <div class="descbox">
+            <h2 class="compra headerboxtext">Compra</h2>
+            <p>40% volumen de alchol, no apto para menores de 18 años. Venta solo valida en España.
+                Compra el producto por tan solo 24.99€</p>
+            <button>comprar</button>
+        </div>
+    </div>
+    
+
+</div>
+
+<div class="footer">
+    
+    <img src="img\gameover.jpg" style="width:20%">
+    <h2>Telefono de contacto 93123456789</h2>
+</div>
+
+
+<script src="scripts.js">
+</script>
+
+</body>
+</html>
